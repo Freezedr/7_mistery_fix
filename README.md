@@ -1,10 +1,16 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+Модуль для решения квадратных уравнений
 
 # How to Use
 
-[TODO]
+```python
+from quadratic_equation import get_roots
+
+a, b, c = 1, -2, 1
+root1, root2 = get_roots(a, b, c)
+```
+
 
 # How to Launch Tests
 
